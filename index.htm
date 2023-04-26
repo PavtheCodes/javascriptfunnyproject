@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Game Selection</title>
+    <style>
+      #game-selection {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+      }
+      #game-list {
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        z-index: 1;
+      }
+      #game-list a {
+        display: block;
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-selection">
+      <div>Games</div>
+      <div id="game-list">
+        <a href="memory.html">Memory</a>
+        <a href="#">Snake</a>
+      </div>
+    </div>
+    <script>
+      const gameSelection = document.getElementById('game-selection');
+      const gameList = document.getElementById('game-list');
+
+      gameSelection.addEventListener('click', () => {
+        gameList.style.display = gameList.style.display === 'block' ? 'none' : 'block';
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+[
+    {
+        "image": "./img/airplane.png",
+        "name": "airplane"
+    },
+    {
+        "image": "./img/balloons.png",
+        "name": "balloons"
+    },
+    {
+        "image": "./img/cat.png",
+        "name": "cat"
+    },
+    {
+        "image": "./img/hat.png",
+        "name": "hat"
+    },
+    {
+        "image": "./img/leaf.png",
+        "name": "leaf"
+    },
+    {
+        "image": "./img/monkey.png",
+        "name": "monkey"
+    },
+    {
+        "image": "./img/owl.png",
+        "name": "owl"
+    },
+    {
+        "image": "./img/perfume.png",
+        "name": "perfume"
+    },
+    {
+        "image": "./img/queen.png",
+        "name": "queen"
+    },
+    {
+        "image": "./img/ring.png",
+        "name": "ring"
+    },
+    {
+        "image": "./img/turtle.png",
+        "name": "turtle"
+    },
+    {
+        "image": "./img/umbrella.png",
+        "name": "umbrella"
+    },
+    {
+        "image": "./img/violin.png",
+        "name": "violin"
+    },
+    {
+        "image": "./img/xylo.png",
+        "name": "xylo"
+    },
+    {
+        "image": "./img/zebra.png",
+        "name": "zebra"
+    }
+]
